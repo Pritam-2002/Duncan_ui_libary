@@ -1,0 +1,6 @@
+{
+  "name": "shad-button-primary",
+  "description": "Primary button built with shadcn/ui.",
+  "files": ["index.tsx"],
+  "keywords": ["button", "primary", "shadcn", "ui", "react"]
+}
