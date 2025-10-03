@@ -1,16 +1,35 @@
 {
   "name": "pritam-2002/shad-buttons",
   "description": "Registry of shadcn/ui-based buttons",
-  "components": [
+  "homepage": "https://github.com/Pritam-2002/Duncan_ui_libary",
+  "items": [
     {
       "name": "shad-button-primary",
       "description": "Primary button built with shadcn/ui.",
-      "path": "src/components/ShadButtonPrimary"
+      "type": "components:ui",
+      "files": [
+        {
+          "name": "index.tsx",
+          "path": "src/components/ShadButtonPrimary/index.tsx"
+        }
+      ],
+      "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
+      "devDependencies": [],
+      "registryDependencies": ["button"]
     },
     {
-      "name": "shad-button-secondary",
+      "name": "shad-button-secondary", 
       "description": "Secondary outline button built with shadcn/ui.",
-      "path": "src/components/ShadButtonSecondary"
+      "type": "components:ui",
+      "files": [
+        {
+          "name": "index.tsx",
+          "path": "src/components/ShadButtonSecondary/index.tsx"
+        }
+      ],
+      "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
+      "devDependencies": [],
+      "registryDependencies": ["button"]
     }
   ]
 }
