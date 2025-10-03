@@ -5,7 +5,7 @@
   "files": [
     {
       "path": "components/ShadButtonSecondary/index.tsx",
-      "content": "import { Button } from '../ui/button';\n\nexport function ShadButtonSecondary({ children, ...props }: React.ComponentProps<typeof Button>) {\n  return (\n    <Button variant=\"outline\" {...props}>\n      {children}\n    </Button>\n  );\n}\n"
+      "content": "import { Button } from '@/components/ui/button';\n\nexport function ShadButtonSecondary({ children, ...props }: React.ComponentProps<typeof Button>) {\n  return (\n    <Button variant=\"outline\" {...props}>\n      {children}\n    </Button>\n  );\n}\n"
     }
   ],
   "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
