@@ -1,0 +1,16 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shad-button-secondary",
+  "type": "registry:component",
+  "description": "Secondary outline button built with shadcn/ui.",
+  "registryDependencies": [
+    "button"
+  ],
+  "files": [
+    {
+      "path": "src/components/ShadButtonSecondary/index.tsx",
+      "content": "import { Button } from \"@/components/ui/button\";\n\nexport function ShadButtonSecondary({ children, ...props }: React.ComponentProps<typeof Button>) {\n  return (\n    <Button variant=\"outline\" {...props}>\n      {children}\n    </Button>\n  );\n}",
+      "type": "registry:ui"
+    }
+  ]
+}
