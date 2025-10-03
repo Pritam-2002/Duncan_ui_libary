@@ -6,11 +6,12 @@
     {
       "name": "shad-button-primary",
       "description": "Primary button built with shadcn/ui.",
-      "type": "components:ui",
+      "type": "registry:ui",
       "files": [
         {
           "name": "index.tsx",
-          "path": "src/components/ShadButtonPrimary/index.tsx"
+          "path": "src/components/ShadButtonPrimary/index.tsx",
+          "type": "registry:ui"
         }
       ],
       "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
@@ -20,11 +21,12 @@
     {
       "name": "shad-button-secondary", 
       "description": "Secondary outline button built with shadcn/ui.",
-      "type": "components:ui",
+      "type": "registry:ui",
       "files": [
         {
           "name": "index.tsx",
-          "path": "src/components/ShadButtonSecondary/index.tsx"
+          "path": "src/components/ShadButtonSecondary/index.tsx",
+          "type": "registry:ui"
         }
       ],
       "dependencies": ["@radix-ui/react-slot", "class-variance-authority"],
