@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Hero1 from './components/sfHerodemo'
+import {HeroTest} from '@/components/sfHerodemo/index'
 // import  {ShadButtonPrimary} from "../src/components/ShadButtonPrimary/index"
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-     <Hero1/>
+     <HeroTest/>
     </>
   )
 }

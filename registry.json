@@ -11,8 +11,8 @@
       "files": [
         { "path": "src/components/sfHerodemo/index.tsx", "type": "registry:ui" },
         { "path": "src/components/sfHerodemo/App.tsx", "type": "registry:ui" },
-        { "path": "src/components/sfHerodemo/components/Header.tsx", "type": "registry:ui" },
-        { "path": "src/components/sfHerodemo/components/Hero.tsx", "type": "registry:ui" }
+        { "path": "src/components/sfHerodemo/Header.tsx", "type": "registry:ui" },
+        { "path": "src/components/sfHerodemo/Hero.tsx", "type": "registry:ui" }
       ]
     }
    
