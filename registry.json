@@ -9,10 +9,10 @@
       "type": "registry:component",
       "dependencies": ["framer-motion", "lucide-react"],
       "files": [
-        { "path": "src/components/sfHerodemo/index.tsx", "type": "registry:ui" },
-        { "path": "src/components/sfHerodemo/App.tsx", "type": "registry:ui" },
-        { "path": "src/components/sfHerodemo/Header.tsx", "type": "registry:ui" },
-        { "path": "src/components/sfHerodemo/Hero.tsx", "type": "registry:ui" }
+        { "path": "components/ui/herodemo1/index.tsx", "type": "registry:ui" },
+        { "path": "components/ui/herodemo1/App.tsx", "type": "registry:ui" },
+        { "path": "components/ui/herodemo1/Header.tsx", "type": "registry:ui" },
+        { "path": "components/ui/herodemo1/Hero.tsx", "type": "registry:ui" }
       ]
     }
    
