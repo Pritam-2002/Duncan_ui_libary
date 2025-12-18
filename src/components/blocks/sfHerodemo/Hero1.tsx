@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./Header";
-import Hero from "./Hero";
+import Header from "@/components/blocks/sfHerodemo/ui/Header";
+import Hero from "@/components/blocks/sfHerodemo/ui/Header";
 
 export const Hero1: React.FC = () => {
   return (
